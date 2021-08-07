@@ -19,6 +19,6 @@ In this lab, I use PorterStemmer algorithm to deal with the text, and in my algo
 If you want to use the stopwords (which will delete all the words that occur in the input file), PLEASE write all the words into a file called "stopwords.txt". And also, please include your input file in a .txt format.
 
 Sample command:
-    python lab4.py input.txt stopwords.txt
+    python clustering.py input.txt stopwords.txt
 or
-    python lab4.py input.txt
+    python clustering.py input.txt
