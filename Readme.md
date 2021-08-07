@@ -24,7 +24,6 @@ Sample command:
 python clustering.py input.txt stopwords.txt
 ```
 <br />
-or
 ```bash
 python clustering.py input.txt
 ```
