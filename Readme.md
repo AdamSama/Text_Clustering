@@ -22,8 +22,5 @@ If you want to use the stopwords (which will delete all the words that occur in 
 Sample command:
 ```bash
 python clustering.py input.txt stopwords.txt
-```
-<br />
-```bash
 python clustering.py input.txt
 ```
