@@ -1,3 +1,4 @@
+# This is a prgram that cluster people based on their description.
 The input of the program has the following pattern:
 
 
@@ -9,9 +10,7 @@ Political Caucus.
 
 Benjamin Britten
 A composer, conductor and pianist. He was a central figure of..
-...................
-
-
+................... 
 This program cluster the each person based on their individual traits occured in the text.
 
 In this lab, I use PorterStemmer algorithm to deal with the text, and in my algorithm, I will write all the regularized and stemmed words into a file called "temp.txt". You can ignore the file called "temp.txt".
@@ -19,6 +18,6 @@ In this lab, I use PorterStemmer algorithm to deal with the text, and in my algo
 If you want to use the stopwords (which will delete all the words that occur in the input file), PLEASE write all the words into a file called "stopwords.txt". And also, please include your input file in a .txt format.
 
 Sample command:
-    python clustering.py input.txt stopwords.txt
-or
-    python clustering.py input.txt
+`<addr>`python clustering.py input.txt stopwords.txt  <br />
+or <br />
+`<addr>`python clustering.py input.txt
